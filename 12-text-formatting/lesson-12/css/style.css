@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSansRegular.woff2') format('woff2'),
+       url('../fonts/PTSansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSansItalic.woff2') format('woff2'),
+       url('../fonts/PTSansItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSansBold.woff2') format('woff2'),
+       url('../fonts/PTSansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSansBoldItalic.woff2') format('woff2'),
+       url('../fonts/PTSansBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+body {
+  font-family: PtSans, sans-serif;
+}
+
+.color-word {
+  color: red;
+}
+
+.color-hex {
+  color: #ff9900;
+}
+
+.color-rgb {
+  color: rgb(255, 0, 0);
+}
+
+.color-rgba {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.color-hsl {
+  color: hsl(285, 100%, 20%);
+}
+
+.color-hsla {
+  color: hsl(285, 100%, 20%, 0.3);
+}
+
+.em-font-size {
+  font-size: 1.5em;
+}
+
+.em-font-size p {
+  font-size: 1.5em;
+}
+
+.rem-font-size {
+  font-size: 2rem;
+}
+
+.px-font-size {
+  font-size: 25px;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.none-italic {
+  font-style: normal;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Отмена жирного начертания */
+strong {
+  font-weight: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowecase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: lowercase;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.overlined {
+  text-decoration: overline;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.underlined {
+  text-decoration: none;
+}
+
+.letter-spaced {
+  letter-spacing: .3em;
+}
+
+.change-lh {
+  line-height: 2;
+  line-height: 10px;
+  line-height: 150%;
+}
+
+.text-sh {
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 5px 5px red;
+}
+
+.text-sh-blur {
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+
+
+
+
+
